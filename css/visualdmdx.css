@@ -1,0 +1,71 @@
+/*
+ * CSS Visual DMDX
+ *
+ * Pablo Garaizar
+ * http://github.com/txipi/Visual-DMDX
+ *
+ */
+
+.inloop {
+  margin-left: 40px;
+}
+
+.itemMoving {
+  border: 2px dashed grey; 
+  background-color:#FFFFFF; 
+}
+
+.input-color {
+  width: 30%;
+  height: 43px;
+  padding: 10px 15px;
+  font-size: 15px;
+  line-height: 1.428571429;
+  color: #2c3e50;
+  vertical-align: middle;
+  background-color: #ffffff;
+  border: 1px solid #dce4ec;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+          transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.preview-container {
+  display: table;
+  width: 100%;
+  height: 340px;
+  background-color: #ecf0f1;
+  border-color: #1abc9c;
+}
+
+.preview-box {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 30px;
+  border-color: #1abc9c;
+}
+
+.modal-width {
+  width: 90%;
+}
+
+.modal-scrollable {
+  overflow: auto;
+}
+
+td {
+  width: 90%;
+  min-width: 150px;
+}
+
+td.min {
+  width: 50px;
+  min-width: 50px;
+}
+
+.import-variables {
+  display: none;
+}
